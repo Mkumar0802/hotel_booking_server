@@ -1,7 +1,7 @@
 const express = require('express');
 const router=express.Router();
 
-const paymentModule = require('../Module/PaymentModule')
+const paymentModule = require('../Module/paymentModule')
 
 router.post("/orders",paymentModule.orders );
 
