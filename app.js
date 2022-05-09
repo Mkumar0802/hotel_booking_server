@@ -10,7 +10,7 @@ var usersRouter = require('./routes/users');
 var hotelRouter = require('./routes/hotel')
 var villasRouter = require('./routes/villas')
 var resortRouter = require('./routes/resort')
-var paymentRouter= require ("./routes/Payment")
+var paymentRouter= require ("./routes/payment")
 
 
 var cors = require('cors')
