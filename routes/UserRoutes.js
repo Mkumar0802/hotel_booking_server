@@ -1,6 +1,4 @@
 const express = require('express');
-
-
 const authModule = require ('../Module/authModule')
 const  protect = require ('../middleware/authMiddleware.js')
 var router = express.Router();
