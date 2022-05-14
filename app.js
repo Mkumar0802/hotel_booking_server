@@ -11,7 +11,7 @@ var hotelRouter = require('./routes/hotel')
 var villasRouter = require('./routes/villas')
 var resortRouter = require('./routes/resort')
 var paymentRouter= require ("./routes/payment")
-var userRoutes = require("./routes/userRoutes")
+var userRoutes = require("./routes/userRoutes.js")
 
 var cors = require('cors')
 var app = express();
