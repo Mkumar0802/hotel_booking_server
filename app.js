@@ -11,7 +11,7 @@ var hotelRouter = require('./routes/hotel')
 var villasRouter = require('./routes/villas')
 var resortRouter = require('./routes/resort')
 var paymentRouter= require ("./routes/payment")
-var userRoutes = require("./routes/userRoutes.js")
+var userRoutes = require("./routes/userRoutes")
 
 var cors = require('cors')
 var app = express();
@@ -36,8 +36,8 @@ app.use('/users', usersRouter);
 app.use('/hotel', hotelRouter);
 app.use('/villas', villasRouter)
 app.use('/resort', resortRouter)
+app.use("/users", userRoutes);
 app.use('/payment',paymentRouter)
-app.use('/users', userRoutes);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
