@@ -37,7 +37,7 @@ app.use('/hotel', hotelRouter);
 app.use('/villas', villasRouter)
 app.use('/resort', resortRouter)
 app.use('/payment',paymentRouter)
-app.use("/users", userRoutes);
+app.use('/users', userRoutes);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
